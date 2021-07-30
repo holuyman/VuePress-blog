@@ -1,0 +1,42 @@
+
+title: '个人文档'
+description: '练习文档'
+head: [
+    ['link',{rel:'icon',href:'/logo.png'}]
+]
+themeConfig: {
+    sidebar: 'auto',
+    nav: [
+      { text: 'Home', link: '/' } ,
+      { text: 'home1', link: '/home1/'},                    
+      { text: 'Guide', link: '/guide/' },
+      { text: 'External', link: 'https://google.com' },
+      { text: 'Languages',
+        items: [
+          { text: 'Chinese', link: '/language/chinese' },
+          { text: 'Japanese', link: '/language/japanese' }
+        ]
+      },
+     
+      {
+        text: '高级',
+        items: [
+          { 
+            text: '算法', 
+            items: [
+              { text: '冒泡', link: '/language/chinese' },
+              { text: '快速', link: '/language/japanese' }
+            ] 
+          },
+          { 
+            text: '设计模式', 
+            items: [
+              { text: '工厂', link: '/language/chinese' },
+              { text: '单例', link: '/language/chinese'},
+            ] 
+          },
+        ]
+      }
+    ]
+  }
+  
