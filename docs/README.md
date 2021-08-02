@@ -2,7 +2,7 @@
 sicebar: auto
 home: true
 heroImage: 
-actionText: 快速上手 →
+actionText: 快速上手start →
 actionLink: /zh/guide/
 features:
 - title: 简洁至上
